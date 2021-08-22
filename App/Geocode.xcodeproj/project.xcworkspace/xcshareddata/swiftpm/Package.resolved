@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "FlexibleGeohash",
+        "repositoryURL": "https://github.com/malt03/FlexibleGeohash.git",
+        "state": {
+          "branch": null,
+          "revision": "d00bcd8a11e0f407e54deee5401bbdd73e5f4eb5",
+          "version": "0.1.1"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

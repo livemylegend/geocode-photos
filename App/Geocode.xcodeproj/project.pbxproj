@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		788C5F8726D2D1D400D2C8DD /* GeocodeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788C5F7426D2D1D100D2C8DD /* GeocodeApp.swift */; };
+		788C5F8826D2D1D400D2C8DD /* GeocodeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788C5F7426D2D1D100D2C8DD /* GeocodeApp.swift */; };
+		788C5F8926D2D1D400D2C8DD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788C5F7526D2D1D100D2C8DD /* ContentView.swift */; };
+		788C5F8A26D2D1D400D2C8DD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788C5F7526D2D1D100D2C8DD /* ContentView.swift */; };
+		788C5F8B26D2D1D400D2C8DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 788C5F7626D2D1D400D2C8DD /* Assets.xcassets */; };
+		788C5F8C26D2D1D400D2C8DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 788C5F7626D2D1D400D2C8DD /* Assets.xcassets */; };
+		788C5F9E26D2D24600D2C8DD /* regions.tsv in Resources */ = {isa = PBXBuildFile; fileRef = 788C5F9B26D2D24600D2C8DD /* regions.tsv */; };
+		788C5F9F26D2D24600D2C8DD /* regions.tsv in Resources */ = {isa = PBXBuildFile; fileRef = 788C5F9B26D2D24600D2C8DD /* regions.tsv */; };
+		788C5FA026D2D24600D2C8DD /* Regions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788C5F9C26D2D24600D2C8DD /* Regions.swift */; };
+		788C5FA126D2D24600D2C8DD /* Regions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788C5F9C26D2D24600D2C8DD /* Regions.swift */; };
+		788C5FA226D2D24600D2C8DD /* Photos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788C5F9D26D2D24600D2C8DD /* Photos.swift */; };
+		788C5FA326D2D24600D2C8DD /* Photos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788C5F9D26D2D24600D2C8DD /* Photos.swift */; };
+		788C5FA626D2D44F00D2C8DD /* FlexibleGeohash in Frameworks */ = {isa = PBXBuildFile; productRef = 788C5FA526D2D44F00D2C8DD /* FlexibleGeohash */; };
+		788C5FA826D2D45600D2C8DD /* FlexibleGeohash in Frameworks */ = {isa = PBXBuildFile; productRef = 788C5FA726D2D45600D2C8DD /* FlexibleGeohash */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		788C5F7426D2D1D100D2C8DD /* GeocodeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeocodeApp.swift; sourceTree = "<group>"; };
+		788C5F7526D2D1D100D2C8DD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		788C5F7626D2D1D400D2C8DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		788C5F7B26D2D1D400D2C8DD /* Geocode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Geocode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		788C5F7E26D2D1D400D2C8DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		788C5F8326D2D1D400D2C8DD /* Geocode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Geocode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		788C5F8526D2D1D400D2C8DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		788C5F8626D2D1D400D2C8DD /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		788C5F9B26D2D24600D2C8DD /* regions.tsv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = regions.tsv; sourceTree = "<group>"; };
+		788C5F9C26D2D24600D2C8DD /* Regions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Regions.swift; sourceTree = "<group>"; };
+		788C5F9D26D2D24600D2C8DD /* Photos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Photos.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		788C5F7826D2D1D400D2C8DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				788C5FA626D2D44F00D2C8DD /* FlexibleGeohash in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		788C5F8026D2D1D400D2C8DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				788C5FA826D2D45600D2C8DD /* FlexibleGeohash in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		788C5F6E26D2D1D100D2C8DD = {
+			isa = PBXGroup;
+			children = (
+				788C5F7326D2D1D100D2C8DD /* Shared */,
+				788C5F7D26D2D1D400D2C8DD /* iOS */,
+				788C5F8426D2D1D400D2C8DD /* macOS */,
+				788C5F7C26D2D1D400D2C8DD /* Products */,
+				788C5F9826D2D22E00D2C8DD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		788C5F7326D2D1D100D2C8DD /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				788C5F7426D2D1D100D2C8DD /* GeocodeApp.swift */,
+				788C5F7526D2D1D100D2C8DD /* ContentView.swift */,
+				788C5F9D26D2D24600D2C8DD /* Photos.swift */,
+				788C5F9C26D2D24600D2C8DD /* Regions.swift */,
+				788C5F9B26D2D24600D2C8DD /* regions.tsv */,
+				788C5F7626D2D1D400D2C8DD /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		788C5F7C26D2D1D400D2C8DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				788C5F7B26D2D1D400D2C8DD /* Geocode.app */,
+				788C5F8326D2D1D400D2C8DD /* Geocode.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		788C5F7D26D2D1D400D2C8DD /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				788C5F7E26D2D1D400D2C8DD /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		788C5F8426D2D1D400D2C8DD /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				788C5F8526D2D1D400D2C8DD /* Info.plist */,
+				788C5F8626D2D1D400D2C8DD /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		788C5F9826D2D22E00D2C8DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		788C5F7A26D2D1D400D2C8DD /* Geocode (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 788C5F8F26D2D1D400D2C8DD /* Build configuration list for PBXNativeTarget "Geocode (iOS)" */;
+			buildPhases = (
+				788C5F7726D2D1D400D2C8DD /* Sources */,
+				788C5F7826D2D1D400D2C8DD /* Frameworks */,
+				788C5F7926D2D1D400D2C8DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Geocode (iOS)";
+			packageProductDependencies = (
+				788C5FA526D2D44F00D2C8DD /* FlexibleGeohash */,
+			);
+			productName = "Geocode (iOS)";
+			productReference = 788C5F7B26D2D1D400D2C8DD /* Geocode.app */;
+			productType = "com.apple.product-type.application";
+		};
+		788C5F8226D2D1D400D2C8DD /* Geocode (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 788C5F9226D2D1D400D2C8DD /* Build configuration list for PBXNativeTarget "Geocode (macOS)" */;
+			buildPhases = (
+				788C5F7F26D2D1D400D2C8DD /* Sources */,
+				788C5F8026D2D1D400D2C8DD /* Frameworks */,
+				788C5F8126D2D1D400D2C8DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Geocode (macOS)";
+			packageProductDependencies = (
+				788C5FA726D2D45600D2C8DD /* FlexibleGeohash */,
+			);
+			productName = "Geocode (macOS)";
+			productReference = 788C5F8326D2D1D400D2C8DD /* Geocode.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		788C5F6F26D2D1D100D2C8DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					788C5F7A26D2D1D400D2C8DD = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					788C5F8226D2D1D400D2C8DD = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 788C5F7226D2D1D100D2C8DD /* Build configuration list for PBXProject "Geocode" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 788C5F6E26D2D1D100D2C8DD;
+			packageReferences = (
+				788C5FA426D2D44F00D2C8DD /* XCRemoteSwiftPackageReference "FlexibleGeohash" */,
+			);
+			productRefGroup = 788C5F7C26D2D1D400D2C8DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				788C5F7A26D2D1D400D2C8DD /* Geocode (iOS) */,
+				788C5F8226D2D1D400D2C8DD /* Geocode (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		788C5F7926D2D1D400D2C8DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				788C5F8B26D2D1D400D2C8DD /* Assets.xcassets in Resources */,
+				788C5F9E26D2D24600D2C8DD /* regions.tsv in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		788C5F8126D2D1D400D2C8DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				788C5F8C26D2D1D400D2C8DD /* Assets.xcassets in Resources */,
+				788C5F9F26D2D24600D2C8DD /* regions.tsv in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		788C5F7726D2D1D400D2C8DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				788C5FA226D2D24600D2C8DD /* Photos.swift in Sources */,
+				788C5F8926D2D1D400D2C8DD /* ContentView.swift in Sources */,
+				788C5FA026D2D24600D2C8DD /* Regions.swift in Sources */,
+				788C5F8726D2D1D400D2C8DD /* GeocodeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		788C5F7F26D2D1D400D2C8DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				788C5FA326D2D24600D2C8DD /* Photos.swift in Sources */,
+				788C5F8A26D2D1D400D2C8DD /* ContentView.swift in Sources */,
+				788C5FA126D2D24600D2C8DD /* Regions.swift in Sources */,
+				788C5F8826D2D1D400D2C8DD /* GeocodeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		788C5F8D26D2D1D400D2C8DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		788C5F8E26D2D1D400D2C8DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		788C5F9026D2D1D400D2C8DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2P927ZTX5P;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = al.orbit.Geocode;
+				PRODUCT_NAME = Geocode;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		788C5F9126D2D1D400D2C8DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2P927ZTX5P;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = al.orbit.Geocode;
+				PRODUCT_NAME = Geocode;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		788C5F9326D2D1D400D2C8DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2P927ZTX5P;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = al.orbit.Geocode;
+				PRODUCT_NAME = Geocode;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		788C5F9426D2D1D400D2C8DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2P927ZTX5P;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = al.orbit.Geocode;
+				PRODUCT_NAME = Geocode;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		788C5F7226D2D1D100D2C8DD /* Build configuration list for PBXProject "Geocode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				788C5F8D26D2D1D400D2C8DD /* Debug */,
+				788C5F8E26D2D1D400D2C8DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		788C5F8F26D2D1D400D2C8DD /* Build configuration list for PBXNativeTarget "Geocode (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				788C5F9026D2D1D400D2C8DD /* Debug */,
+				788C5F9126D2D1D400D2C8DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		788C5F9226D2D1D400D2C8DD /* Build configuration list for PBXNativeTarget "Geocode (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				788C5F9326D2D1D400D2C8DD /* Debug */,
+				788C5F9426D2D1D400D2C8DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		788C5FA426D2D44F00D2C8DD /* XCRemoteSwiftPackageReference "FlexibleGeohash" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/malt03/FlexibleGeohash.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		788C5FA526D2D44F00D2C8DD /* FlexibleGeohash */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 788C5FA426D2D44F00D2C8DD /* XCRemoteSwiftPackageReference "FlexibleGeohash" */;
+			productName = FlexibleGeohash;
+		};
+		788C5FA726D2D45600D2C8DD /* FlexibleGeohash */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 788C5FA426D2D44F00D2C8DD /* XCRemoteSwiftPackageReference "FlexibleGeohash" */;
+			productName = FlexibleGeohash;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 788C5F6F26D2D1D100D2C8DD /* Project object */;
+}
